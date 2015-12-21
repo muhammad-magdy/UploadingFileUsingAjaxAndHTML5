@@ -1,0 +1,33 @@
+﻿<div id="Container">
+    <fieldset>
+        <legend>Upload:</legend>
+        
+        <div id="FormContent">
+            <form id="FormMultipleUpload" enctype="multipart/form-data" method="post">
+                <span class="btn btn-success fileinput-button">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    <span>Add files...</span>
+                    <input type="file" name="UploadedFiles" id="UploadedFiles" multiple />
+                </span>
+                <button class="btn btn-primary start" type="button" id="Submit_btn">
+                    <i class="glyphicon glyphicon-upload"></i>
+                    <span>Start upload</span>
+                </button>
+                <button class="btn btn-warning cancel" type="button" id="Cancel_btn">
+                    <i class="glyphicon glyphicon-ban-circle"></i>
+                    <span>close</span>
+                </button>
+                <div id="drop_zone" class="drop_zone">Drop images here</div>
+            </form>
+            <div class="progress CustomProgress">
+                <div id="FileProgress" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                    <span></span>
+                </div>
+            </div>
+            <div id="Files">
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+

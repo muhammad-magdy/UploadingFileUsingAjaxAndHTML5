@@ -1,0 +1,9 @@
+﻿@model UploadingFileUsingAjaxAndHTML5.Models.Attachment
+<tr id="Attachment_@Model.ID">
+    <td>@Model.ID</td>
+    <td>@Model.FileName</td>
+    <td>@Model.FileType</td>
+    <td>@Html.ActionLink("Download", "DownloadAttachment", new { id = Model.ID }) | 
+        @Ajax.ActionLink("Delete", "DeleteAttachment", new { id = Model.ID }, new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, Confirm = "Are You Sure you want to delete this record?", OnSuccess = "OnDeleteAttachmentSuccess(data)"})</td>
+</tr>
+

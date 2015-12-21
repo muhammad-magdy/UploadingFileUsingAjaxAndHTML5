@@ -1,0 +1,154 @@
+﻿legend
+{
+	display: block;
+	padding-left: 2px;
+	padding-right: 2px;
+	border: none;
+	width: auto;
+	color: #3c8dbc;
+}
+
+fieldset
+{
+	display: block;
+	-webkit-margin-start: 2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-webkit-padding-start: 0.75em;
+	-webkit-padding-end: 0.75em;
+	-webkit-padding-after: 0.625em;
+	border: 2px groove threedface;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	min-width: -webkit-min-content;
+	border-color: #f3f4f5;
+}
+
+#FormContent
+{
+	margin-left: 20px;
+	margin-right: auto;
+	width: 95%;
+}
+
+
+.fileinput-button
+{
+	position: relative;
+	overflow: hidden;
+}
+
+	.fileinput-button input
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 0;
+		opacity: 0;
+		filter: alpha(opacity=0);
+		transform: translate(-300px, 0) scale(4);
+		font-size: 23px;
+		direction: ltr;
+		cursor: pointer;
+	}
+
+.fileupload-buttonbar .btn,
+.fileupload-buttonbar .toggle
+{
+	margin-bottom: 5px;
+}
+
+.fileupload-buttonbar .btn,
+.fileupload-buttonbar .toggle
+{
+	margin-bottom: 5px;
+}
+
+.info
+{
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	width: 95%;
+}
+
+.InfoContainer
+{
+	background-color: #F0F0F0;
+	width: 95%;
+}
+
+.CustomProgress
+{
+	width: 95%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#Container
+{
+	/*width: 30%;*/
+	margin-left: 2.5%;
+	margin-right: 2%;
+	width: 95%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	overflow: auto!important;
+	height: 500px;
+}
+
+.Error
+{
+	color: red;
+	font-weight: bold;
+}
+
+#Main
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	/*background-color: #b0e0e6;*/
+}
+
+.thumb
+{
+	height: 100px;
+	border: 1px solid #000;
+	margin: 1px 5px 10px 2px;
+}
+
+.drop_zone
+{
+	border: 2px dashed #bbb;
+	border-radius: 5px;
+	color: #bbb;
+	padding: 25px;
+	text-align: center;
+	margin-top: 10px;
+	width: 95%;
+}
+
+.hover
+{
+	border: 2px solid #000;
+	border-radius: 5px;
+	color: #bbb;
+	padding: 25px;
+	text-align: center;
+	margin-top: 10px;
+	width: 95%;
+}
+
+#close_btn
+{
+	background: url("../Images/close_btn.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 0 none;
+	float: right;
+	height: 31px;
+	width: 40px;
+}

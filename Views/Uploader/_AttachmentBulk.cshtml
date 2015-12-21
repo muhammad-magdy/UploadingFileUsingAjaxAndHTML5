@@ -1,0 +1,11 @@
+﻿@model IEnumerable<UploadingFileUsingAjaxAndHTML5.Models.Attachment>
+@foreach (var attachment in Model)
+{
+    <tr id="Attachment_@attachment.ID">
+    <td>@attachment.ID</td>
+    <td>@attachment.FileName</td>
+    <td>@attachment.FileType</td>
+    <td>@Html.ActionLink("Download", "DownloadAttachment", new { id = attachment.ID }) | 
+        @Ajax.ActionLink("Delete", "DeleteAttachment", new { id = attachment.ID }, new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, Confirm = "Are You Sure you want to delete this record?", OnSuccess = "OnDeleteAttachmentSuccess(data)"})</td>
+</tr>
+}
