@@ -10,7 +10,11 @@ namespace UploadingFileUsingAjaxAndHTML5.DAL
 {
     public class AttachmentContext :DbContext
     {
-        public AttachmentContext() : base("AttachmentContext") { }
+        public AttachmentContext() 
+        : base("AttachmentContext") 
+        {
+             Database.Initialize(true);
+        }
         public DbSet<Attachment> Attachments { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
