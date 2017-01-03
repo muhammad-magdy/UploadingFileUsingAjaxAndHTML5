@@ -35,6 +35,11 @@ $RECYCLE.BIN/
 .Spotlight-V100
 .Trashes
 
+# Exclude specific Directories
+/packages
+/bin
+/obj
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
