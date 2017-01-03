@@ -5,7 +5,7 @@ Simple native file Uploader with a progress bar without using flash player or an
 ## Result
 ![](https://www.codeproject.com/KB/aspnet/1021004/PenguinsFile.png)
 
-# To Run the Demo
+# Run the Demo
 * Download the project and restore packages.
 * Make sure that SQL Server installed.
 
